@@ -9,7 +9,7 @@
   margin-bottom: 0; }
 
 .font-xl {
-  font-size: 80px;
+  font-size: 60px;
   line-height: 98px; }
 
 .font-lg {
@@ -9144,7 +9144,7 @@ p {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 28px 0; }
+  padding: 15px 0; }
   .header-content-menu ul {
     display: -webkit-box;
     display: -webkit-flex;
@@ -9244,7 +9244,7 @@ p {
   .banner-content-left .btn--primary {
     margin-right: 16px; }
   .banner-content-left .follow-content {
-    margin-top: 115px; }
+    margin-top: 80px; }
     .banner-content-left .follow-content span {
       font-size: 16px;
       font-weight: 400;
