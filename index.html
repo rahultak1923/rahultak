@@ -7,6 +7,12 @@
     <title>Rahul Personal Portfolio</title>
     <link rel="stylesheet" href="dist/main.css">
 </head>
+<style>
+    .testomonial-person-area.active {
+        border: 2px solid #d3d3d3;
+        background-color: #f9f9f9;
+    }
+</style>
 <body>
    <!-- Header Section Starts Here-->
    <section class="header">
@@ -378,8 +384,8 @@
 
                             <h3 class="font-xs">
                                 I Worked with
-                                <span>289+</span> 
-                                Companies all over the World.
+                                <span>these</span> 
+                                Companies.
                             </h3> 
                         </div>
                     </div>
@@ -425,10 +431,10 @@
    <section class="call-action">
        <div class="container">
            <div class="call-action-content">
-            <h4>Got a Project in Mind? Let's Make</h4>
-            <h4>Something Awesome Together.</h4>
-            <a href="#" class="btn btn--primary">
-                Hire Me             
+            <h4>"This is my resume for hiring, </h4>
+            <h4>Please take a look at it."</h4>
+            <a href="dist/rahul.pdf" target="_blank" class="btn btn--primary">
+                My resume             
                 <svg width="33" height="24" viewBox="0 0 33 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M31 12.025H1" stroke="#DFE3EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                 <path d="M25.9502 6.00006L32.0002 12.0241L25.9502 18.0491" stroke="#DFE3EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -445,69 +451,55 @@
 
    <!-- Testimonial Section Starts Here-->
    <section class="testomonial">
-       <div class="container">
-           <div class="testomonial-content">
+    <div class="container">
+        <div class="testomonial-content">
             <h3 class="font-sm">Client Testimonial
                 <div class="deep-dot"></div>
             </h3>
             <div class="row">
                 <div class="col-lg-4 col-md-12">
                     <div class="testomonial-content-left">
-                        <div class="testomonial-person-area">
+                        <div class="testomonial-person-area active" data-person="kunal">
                             <div class="testomonial-person-content">
-                            <div class="person-img">
-                                <img src="dist/images/testomonial-1.png" alt="img">
-                            </div>
-                            <div class="person-text">
-                                <div class="name">Sundar Pichai</div>
-                                <div class="title-name">
-                                 CEO &amp; Founder of 
-                                 <span>Google</span>
+                                <div class="person-img">
+                                    <img src="dist/images/owner.jpg" width="50" alt="img">
                                 </div>
-                             </div>
-                         </div>
+                                <div class="person-text">
+                                    <div class="name">Kunal Duran</div>
+                                    <div class="title-name">
+                                        CEO &amp; Founder of
+                                        <span>Duranz</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="testomonial-person-area">
+                        <div class="testomonial-person-area" data-person="varun">
                             <div class="testomonial-person-content">
-                            <div class="person-img">
-                                <img src="dist/images/testomonial-1.png" alt="img">
-                            </div>
-                            <div class="person-text">
-                                <div class="name">Sundar Pichai</div>
-                                <div class="title-name">
-                                 CEO &amp; Founder of 
-                                 <span>Google</span>
+                                <div class="person-img">
+                                    <img src="dist/images/varun.jpg" width="40" alt="img">
                                 </div>
-                             </div>
-                         </div>
+                                <div class="person-text">
+                                    <div class="name">Varun</div>
+                                    <div class="title-name">
+                                        Coach &amp; Gym  
+                                        <span>Trainer</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="testomonial-person-area">
+                        <div class="testomonial-person-area" data-person="lucky">
                             <div class="testomonial-person-content">
-                            <div class="person-img">
-                                <img src="dist/images/testomonial-1.png" alt="img">
-                            </div>
-                            <div class="person-text">
-                                <div class="name">Sundar Pichai</div>
-                                <div class="title-name">
-                                 CEO &amp; Founder of 
-                                 <span>Google</span>
+                                <div class="person-img">
+                                    <img src="dist/images/lucky.png" width="40" alt="img">
                                 </div>
-                             </div>
-                         </div>
-                        </div>
-                        <div class="testomonial-person-area ">
-                            <div class="testomonial-person-content">
-                            <div class="person-img">
-                                <img src="dist/images/testomonial-1.png" alt="img">
-                            </div>
-                            <div class="person-text">
-                                <div class="name">Sundar Pichai</div>
-                                <div class="title-name">
-                                 CEO &amp; Founder of 
-                                 <span>Google</span>
+                                <div class="person-text">
+                                    <div class="name">Lucky</div>
+                                    <div class="title-name">
+                                        Professional &amp; Video/Photo  
+                                        <span>Editor</span>
+                                    </div>
                                 </div>
-                             </div>
-                         </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -515,32 +507,38 @@
                     <div class="testomonial-content-right">
                         <div class="rating-area">           
                             <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M15.3009 4.48313C15.6678 3.73997 16.7275 3.73997 17.0944 4.48313L20.0852 10.5423C20.2307 10.8371 20.5119 11.0416 20.8373 11.0891L27.5272 12.067C28.3471 12.1868 28.6739 13.1946 28.0803 13.7728L23.2411 18.4862C23.0052 18.7159 22.8976 19.0471 22.9532 19.3716L24.0951 26.0291C24.2352 26.8461 23.3777 27.4691 22.644 27.0833L16.6631 23.938C16.3717 23.7847 16.0236 23.7847 15.7322 23.938L9.75128 27.0833C9.01765 27.4691 8.16011 26.8461 8.30022 26.0291L9.44207 19.3716C9.49773 19.0471 9.39007 18.7159 9.1542 18.4862L4.315 13.7728C3.7214 13.1946 4.04819 12.1868 4.8681 12.067L11.558 11.0891C11.8834 11.0416 12.1646 10.8371 12.3101 10.5423L15.3009 4.48313Z" fill="#FF8718"/>
+                                <path d="M15.3009 4.48313C15.6678 3.73997 16.7275 3.73997 17.0944 4.48313L20.0852 10.5423C20.2307 10.8371 20.5119 11.0416 20.8373 11.0891L27.5272 12.067C28.3471 12.1868 28.6739 13.1946 28.0803 13.7728L23.2411 18.4862C23.0052 18.7159 22.8976 19.0471 22.9532 19.3716L24.0951 26.0291C24.2352 26.8461 23.3777 27.4691 22.644 27.0833L16.6631 23.938C16.3717 23.7847 16.0236 23.7847 15.7322 23.938L9.75128 27.0833C9.01765 27.4691 8.16011 26.8461 8.30022 26.0291L9.44207 19.3716C9.49773 19.0471 9.39007 18.7159 9.1542 18.4862L4.315 13.7728C3.7214 13.1946 4.04819 12.1868 4.8681 12.067L11.558 11.0891C11.8834 11.0416 12.1646 10.8371 12.3101 10.5423L15.3009 4.48313Z" fill="#FF8718"/>
                             </svg>  
                             <span class="para-2">5.0 Star Rating</span>
                         </div>
-                        <h4>“If you're looking for someone who will challenge your UX/UI thinking and really cut to the core of what's important for users, then Jesse is your man. On top of that, he brings a level of enthusiasm to the craft that's energizing for everyone who works with him.”</h4>
+                        <h4 id="testimonial-feedback">“Working with you has been an excellent experience. Your skills as a website developer and freelancer are impressive, and you delivered high-quality results with professionalism. Your clear communication, responsiveness, and dedication to the project made the process smooth. I highly recommend your services and hope to collaborate again.”</h4>
                         <img class="testomonial-shape" src="dist/images/testomonial-shape.png" alt="shape">
                     </div>
                 </div>
             </div>
-           </div>
-       </div>
-   </section>
+        </div>
+    </div>
+</section>
+
+
+
+
+
    <!-- Testimonial Section Ends Here-->
 
    <!-- Blog And News Section Starts Here-->
    <section class="blog">
        <div class="container">
            <div class="blog-area-content">
-               <h3 class="font-sm">Blog & News
+               <h3 class="font-sm">Video & News
                    <div class="deep-dot"></div>
                </h3>
            <div class="row">
             <div class="col-lg-4">
                 <div class="blog-area">
                     <div class="blog-area-image">
-                        <img src="dist/images/blog-img.jpg" alt="blog-img">
+                        <!-- <img src="dist/images/blog-img.jpg" alt="blog-img"> -->
+                         <video src="https://youtu.be/eok5YQjaL4Y?si=e4PBW1oBduAchVMW"></video>
                     </div>
                     <div class="blog-area-content">
                         <div class="date-text">
@@ -797,6 +795,40 @@
     </div>
    <!-- Footer  Section Ends Here-->
 
+
+   <script>
+    // Testimonials data
+    const testimonials = {
+        kunal: {
+            feedback: "“Working with you has been an excellent experience. Your skills as a website developer and freelancer are impressive, and you delivered high-quality results with professionalism. Your clear communication, responsiveness, and dedication to the project made the process smooth. I highly recommend your services and hope to collaborate again.”"
+        },
+        varun: {
+            feedback: "“You delivered a professional and user-friendly website, perfectly capturing my gym services. Great communication and timely delivery. Highly recommended!”"
+        },
+        lucky: {
+            feedback: "“I just wanted to say how amazing my website looks! Your design skills really brought my vision to life, and I couldn't be happier with the final result. Thank you for your fantastic work!”"
+        }
+    };
+
+    const personAreas = document.querySelectorAll('.testomonial-person-area');
+    const feedbackText = document.getElementById('testimonial-feedback');
+
+    personAreas.forEach(person => {
+        person.addEventListener('click', function() {
+            // Remove active class from all persons
+            personAreas.forEach(item => item.classList.remove('active'));
+
+            // Add active class to the clicked person
+            this.classList.add('active');
+
+            // Get the person data-person value
+            const personName = this.getAttribute('data-person');
+
+            // Update feedback content
+            feedbackText.textContent = testimonials[personName].feedback;
+        });
+    });
+</script>
     <script src="dist/main.js"></script>
 </body>
 </html>
