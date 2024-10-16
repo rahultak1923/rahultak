@@ -9362,7 +9362,8 @@ p {
       .about-content-left .about-white-shadow {
         position: absolute;
         top: 32px;
-        left: 32px;
+        /* left: 32px; */
+        right: 50px;
         border-radius: 10px;
         z-index: -3; }
       .about-content-left .lg-round-shape {
